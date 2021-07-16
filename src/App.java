@@ -1,14 +1,12 @@
 import java.util.Scanner;
 
 public class App {
-    public static void main(String[] args) throws Exception {
-       
+    public static void main(String[] args) throws Exception {       
         Scanner sc = new Scanner(System.in);
         System.out.print("Ingrese cantidad: ");
         int cant = sc.nextInt();  
         sc.nextLine();              
         System.out.println(cant);
-
         for (int i = 0; i < cant; i++) {
             System.out.print("Ingrese linea: ");  
             String linea = sc.nextLine();
@@ -18,7 +16,5 @@ public class App {
                 System.out.print(vector[j] + " ");
             }
         }
-
-
     }
 }
